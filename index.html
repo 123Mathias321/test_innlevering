@@ -1,0 +1,79 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <title>Skyskrapere</title>
+</head>
+<body>
+    <h1>Verdens tre høyeste skyskrapere</h1>
+    <table>
+        <tr class="Overskrift">
+            <th>Skyskraper</th>
+            <th>Høyde</th>
+            <th>By</th>
+            <th>Land</th>
+            <th>Byggeår</th>
+        </tr>
+        <tr class="tekst">
+            <td>Burj Khalifa</td>
+            <td>828 m</td>
+            <td>Dubai</td>
+            <td>De Forente Arabiske Emirater</td>
+            <td>2009</td>
+        </tr>
+        <tr class="tekst">
+            <td>Shanghai Tower</td>
+            <td>632 m</td>
+            <td>Shanghai</td>
+            <td>Kina</td>
+            <td>2014</td>
+        </tr>
+        <tr class="tekst">
+            <td>Makkah Royal Clock Tower</td>
+            <td>601 m</td>
+            <td>Mekka</td>
+            <td>Saudi Arabia</td>
+            <td>2011</td>
+        </tr>
+    </table>
+    <div>
+        <img src="burj_stor.jpg" alt="Burj Khalifa" >
+        <img src="Shanghai_stor.jpg" alt="Shanghai Tower">
+        <img src="Makkah_stor.jpg" alt="Makkah Royal Clock Tower">
+    </div>
+</body>
+<style>
+    .Overskrift{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #3f4259;
+        color: white;
+    }
+    td{
+        border: 1px solid #f6f5f4;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding: 1rem;            
+    }
+    .tekst:nth-child(odd) {
+        background-color: #f6f5f4 ;        
+    }
+    th{
+        padding: 1rem;
+        border: 1px solid  white;
+    }
+    table{
+        border: 1px solid black ;
+        border-collapse: collapse;
+    }
+    body{
+        display: grid;
+        grid-template-columns: 96vw;
+        grid-template-rows: 15vh 30vh 55vh;
+    }
+    img{
+        height: 55vh;
+        width: 32vw;
+        border-collapse: collapse;
+    }
+
+</style>
+</html>
